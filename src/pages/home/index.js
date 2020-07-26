@@ -13,6 +13,8 @@ export default class Home extends React.Component{
                 </div>
                 <div className="wrapper">
                     <div className="primary"><Form/></div>
+                
+
                     <div className="secundary"></div>
                 </div>
             </>

@@ -5,6 +5,7 @@
 .wrapper{
     display: flex;
     justify-content: space-around;
+    
     align-items: center;
     width: 100%;
     height: 100vh;
@@ -14,8 +15,9 @@
     position: absolute;
     top: 1px;
     @media (max-width: 786px) {
-        background: none;
+        background: url('../../assets/bg-home-mobile.svg');
         justify-content: center;
-
+        background-size: cover;
+        background-position: center;
     }
 }
