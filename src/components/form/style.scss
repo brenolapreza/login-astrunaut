@@ -1,0 +1,35 @@
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    input{
+        padding: 15px;
+        width: 400px;
+        margin: 10px;
+        border-radius: 8px;
+        border: none;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #E2E2E2;
+        outline: none;
+
+        background: #2E2E2E;
+        &::placeholder{
+            font-size: 20px;
+        }
+    }
+    #btn{
+        position: relative;
+        top: 40px;
+        transition: 0.5s;
+        font-size: 20px;
+
+        &:hover{
+            background-color: #1d1d1d;
+            transform: translate(0px, -4px);
+            border-bottom: 6px solid rgb(39, 39, 39);
+          
+        }
+    }
+}
