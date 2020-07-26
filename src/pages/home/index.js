@@ -12,7 +12,10 @@ export default class Home extends React.Component{
                     <Nav/>
                 </div>
                 <div className="wrapper">
-                    <div className="primary"><Form/></div>
+                    <div className="primary">
+                        <h1>CREATE  ACCOUNT</h1>
+                        <Form/>
+                    </div>
                 
 
                     <div className="secundary"></div>
