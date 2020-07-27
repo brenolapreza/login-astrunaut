@@ -34,3 +34,39 @@
         padding: 20px 0;
     }
 }
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    input{
+        padding: 15px;
+        width: 400px;
+        margin: 10px;
+        border-radius: 8px;
+        border: none;
+        font-size: 18px;
+        color: $color-text-default;
+        outline: none;
+
+        background: $background-color;
+        &::placeholder{
+            font-size: 20px;
+        }
+    }
+    #btn{
+        position: relative;
+        top: 40px;
+        transition: 0.5s;
+        font-size: 20px;
+
+        &:hover{
+            background-color: #1d1d1d;
+            transform: translate(0px, -4px);
+            border-bottom: 7px solid rgb(39, 39, 39);
+          
+        }
+    }
+}

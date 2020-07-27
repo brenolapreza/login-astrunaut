@@ -8,13 +8,13 @@ const Nav = () => {
         <nav>
             <ul>
                 <div className="nav-primary">
-                    <li><a href="#"> <img src={Logo} alt="Logo" /></a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="/"> <img src={Logo} alt="Logo" /></a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
                 </div>
                 <div className="nav-secundary">
-                    <li><a href="#">Entrar</a></li>
-                    <li><a href="#">Registrar</a></li>
+                    <li><a href="/">Entrar</a></li>
+                    <li><a href="/">Registrar</a></li>
                 </div>
             </ul>
         </nav>

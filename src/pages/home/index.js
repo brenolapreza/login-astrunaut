@@ -1,23 +1,21 @@
 import React from 'react'
 import Nav from '../../components/nav'
-import Form from '../../components/form'
+import Forms from '../../components/forms'
 import '../../assets/global.scss'
 import './style.scss'
 
-export default class Home extends React.Component{
-    render(){
-        return(
+export default class Home extends React.Component {
+    render() {
+        return (
             <>
                 <div className="nav">
-                    <Nav/>
+                    <Nav />
                 </div>
                 <div className="wrapper">
                     <div className="primary">
                         <h1>CREATE  ACCOUNT</h1>
-                        <Form/>
+                        <Forms />
                     </div>
-                
-
                     <div className="secundary"></div>
                 </div>
             </>
